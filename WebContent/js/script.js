@@ -10,7 +10,7 @@ function validation() {
 		document.forms["menucard"]["txtname"].select();
 		return false;
 	}
-	if (/[^a-zA-Z]/.test(ttname)) {
+	if (/[^a-zA-Z ]/.test(ttname)) {
 		alert("Name has to be a Alphabet");
 		return false;
 	}
@@ -20,7 +20,7 @@ function validation() {
 		document.forms["menucard"]["txtprice"].focus();
 		return false;
 	}
-	if (/[^0-9]/.test(tprice)) {
+	if (/[^0-9/.]/.test(tprice)) {
 		alert("Price has to be a number.");
 		return false;
 	}

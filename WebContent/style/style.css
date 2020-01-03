@@ -55,6 +55,10 @@ h2, table {
 	text-align: center;
 	width: 125px;
 }
+p {
+	text-align: center;
+	color: #42f57e;
+}
 #cart {
 	float: right;
 	margin-right: 10px;
