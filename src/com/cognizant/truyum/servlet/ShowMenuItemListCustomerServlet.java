@@ -41,7 +41,7 @@ public class ShowMenuItemListCustomerServlet extends HttpServlet {
 			RequestDispatcher rd = request.getRequestDispatcher("menu-item-list-customer.jsp");
 			rd.forward(request, response);
 		} catch (Exception ex) {
-			System.out.println(ex);
+			
 		}
 	}
 

@@ -62,7 +62,7 @@ public class EditMenuItemServlet extends HttpServlet {
 			RequestDispatcher rd = request.getRequestDispatcher("edit-menu-item-status.jsp");
 			rd.forward(request, response);
 		} catch (Exception ex) {
-			System.out.println(ex);
+			
 		}
 	}
 
