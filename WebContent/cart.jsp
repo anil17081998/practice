@@ -38,7 +38,7 @@
 				<th></th>
 				<th class="align-left">Total</th>
 				<th class="align-right">${total}</th>
-				<th></th>>
+				
 		</table>
 
 	</div>

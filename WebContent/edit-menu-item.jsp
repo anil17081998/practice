@@ -49,11 +49,12 @@
 
 					</td>
 					<td><select name="catogory" id="catt">
-							<option value="${menuItem.category}">${menuItem.category}</option>
-							<option value="Starters">Starters</option>
-							<option value="Main Corse">Main course</option>
-							<option value="Deserts">Deserts</option>
-							<option value="Drinks">Drinks</option>
+							<option
+								<c:if test="${menuItem.category eq 'Starters'}">Selected</c:if>>Starters</option>
+							<option <c:if test="${menuItem.category eq 'Main course'}">Selected</c:if>>Main course</option>
+							<option <c:if test="${menuItem.category eq 'Deserts'}">Selected</c:if>>Deserts</option>
+							<option
+								<c:if test="${menuItem.category eq 'Drinks'}">Selected</c:if>>Drinks</option>
 					</select></td>
 				</tr>
 				<tr>
